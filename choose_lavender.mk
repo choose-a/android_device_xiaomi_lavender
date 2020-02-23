@@ -29,23 +29,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-CUSTOM_BUILD_TYPE := UNOFFICIAL
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_WIFI_EXT := true
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_STOCK_ARCORE := true
+# Inherit some common Choose stuff.
+$(call inherit-product, vendor/choose-a/config/common.mk)
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="lavender" \
-    PRODUCT_NAME="lavender" \
-    PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys" 
+        TARGET_DEVICE="lavender" \
+        PRODUCT_NAME="lavender" \
+	PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys" 
 
 # Device identifier
-PRODUCT_NAME := aosp_lavender
+PRODUCT_NAME := choose_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
