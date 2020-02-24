@@ -21,6 +21,12 @@
 # definition file).
 #
 
+# Declare soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/sdm660/audio \
+    hardware/qcom-caf/sdm660/display \
+    hardware/qcom-caf/sdm660/media
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
