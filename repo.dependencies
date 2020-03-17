@@ -24,7 +24,7 @@
    "remote": "gh",
    "repository": "xiaomi-sdm660/android_vendor_xiaomi_sdm660-common",
    "target_path": "vendor/xiaomi/sdm660-common",
-   "revision": "lineage-17.0"
+   "revision": "sdm"
  },
  {
    "remote": "gh",
