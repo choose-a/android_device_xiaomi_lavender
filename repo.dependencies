@@ -15,16 +15,16 @@
    "target_path": "packages/apps/SnapdragonCamera"
  },
  {
-   "remote": "gh",
-   "repository": "xiaomi-sdm660/android_vendor_xiaomi_lavender",
+   "remote": "choose",
+   "repository": "choose-a/android_vendor_xiaomi_lavender",
    "target_path": "vendor/xiaomi/lavender",
-   "revision": "lineage-17.0"
+   "revision": "choose-10.0"
  },
  {
    "remote": "gh",
    "repository": "xiaomi-sdm660/android_vendor_xiaomi_sdm660-common",
    "target_path": "vendor/xiaomi/sdm660-common",
-   "revision": "sdm"
+   "revision": "cr-8.0-eas"
  },
  {
    "remote": "gh",
