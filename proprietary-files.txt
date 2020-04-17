@@ -78,6 +78,7 @@ vendor/lib/libcdsprpc.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libc++_shared.so
 vendor/lib/libdepthmapwrapper.so
+vendor/lib/libdng_sdkvendor.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libft2vendor.so
