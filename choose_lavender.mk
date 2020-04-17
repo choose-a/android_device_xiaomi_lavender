@@ -38,6 +38,11 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit some common Choose stuff.
 $(call inherit-product, vendor/choose-a/config/common.mk)
 
+# HAL1 apps list
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera.hal1.packagelist=com.whatsapp,com.android.camera,com.android.camera2 \
+    vendor.camera.hal1.packagelist= com.whatsapp,com.android.camera,com.android.camera2
+
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
         TARGET_DEVICE="lavender" \
