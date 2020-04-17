@@ -42,7 +42,9 @@ $(call inherit-product, vendor/choose-a/config/common.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += \
         TARGET_DEVICE="lavender" \
         PRODUCT_NAME="lavender" \
-	PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys" 
+	PRIVATE_BUILD_DESC="lavender-user 10 QKQ1.190910.002 20.3.26 release-keys"
+
+BUILD_FINGERPRINT := "xiaomi/lavender/lavender:10/QKQ1.190910.002/20.3.26:user/release-keys"
 
 # Device identifier
 PRODUCT_NAME := choose_lavender
