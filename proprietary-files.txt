@@ -3,6 +3,25 @@ vendor/lib/rfsa/adsp/nuance.scd
 
 # Audio
 vendor/firmware/voice_amodel.bin
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libdrc.so
+vendor/lib/libqtigef.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib64/libacdb-fts.so
+vendor/lib64/libacdbloader.so
+vendor/lib64/libacdbrtac.so
+vendor/lib64/libadiertac.so
+vendor/lib64/libaudcal.so
+vendor/lib64/libaudioalsa.so
+vendor/lib64/libaudioparsers.so
+vendor/lib64/libqtigef.so
 
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -36,7 +55,9 @@ vendor/etc/camera/lavender_ov13855_sunny_india_ii_chromatix.xml
 vendor/etc/camera/lavender_s5k5e8_ofilm_cn_i_chromatix.xml
 vendor/etc/camera/lavender_s5k5e8_sunny_cn_ii_chromatix.xml
 vendor/etc/camera/lavender_s5kgm1_ofilm_i_chromatix.xml
+vendor/etc/camera/lavender_s5kgm1_ofilm_iii_chromatix.xml
 vendor/etc/camera/lavender_s5kgm1_ofilm_india_i_chromatix.xml
+vendor/etc/camera/lavender_s5kgm1_ofilm_india_iii_chromatix.xml
 vendor/etc/camera/lavender_s5kgm1_sunny_ii_chromatix.xml
 vendor/etc/camera/lavender_s5kgm1_sunny_india_ii_chromatix.xml
 vendor/etc/camera/lf_facerank_model.bin
@@ -53,11 +74,13 @@ vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libarcsoft_supernight.so
+vendor/lib/libcdsprpc.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libc++_shared.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libflash_pmic.so
+vendor/lib/libft2vendor.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
@@ -72,6 +95,7 @@ vendor/lib/libsymphonypower.so
 vendor/lib/libvidhance.so
 vendor/lib/libVDClearShot.so
 vendor/lib/libVDSuperPhotoAPI.so
+vendor/lib/miwatermark.so
 vendor/lib/libmibokeh_660.so
 vendor/lib/libmm-qcamera.so
 vendor/lib/libmmlib2d_interface.so
@@ -143,6 +167,7 @@ vendor/lib/libvideoutils.so
 vendor/lib/libvidhance_gyro.so
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/mibokeh_660_opencl.bin
+vendor/lib64/libcdsprpc.so
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
 vendor/lib64/libmmcamera2_q3a_core.so
@@ -171,6 +196,7 @@ vendor/lib/libactuator_lavender_imx486_ofilm_i_bu64982.so
 vendor/lib/libactuator_lavender_imx486_ofilm_i_dw9714.so
 vendor/lib/libactuator_lavender_ov12a10_sunny_ii_dw9714.so
 vendor/lib/libactuator_lavender_s5kgm1_ofilm_i_dw9800.so
+vendor/lib/libactuator_lavender_s5kgm1_ofilm_iii_dw9800.so
 vendor/lib/libactuator_lavender_s5kgm1_sunny_ii_dw9800.so
 
 # Camera chromatix
@@ -322,6 +348,7 @@ vendor/lib/libchromatix_lavender_ov12a10_sunny_ii_default_video.so
 vendor/lib/libchromatix_lavender_ov12a10_sunny_ii_hfr_120_3a.so
 vendor/lib/libchromatix_lavender_ov12a10_sunny_ii_hfr_120.so
 vendor/lib/libchromatix_lavender_ov12a10_sunny_ii_hfr_60_3a.so
+vendor/lib/libchromatix_lavender_ov12a10_sunny_ii_hfr_60_its.so
 vendor/lib/libchromatix_lavender_ov12a10_sunny_ii_hfr_60.so
 vendor/lib/libchromatix_lavender_ov12a10_sunny_ii_hfr_90_3a.so
 vendor/lib/libchromatix_lavender_ov12a10_sunny_ii_hfr_90.so
@@ -538,8 +565,57 @@ vendor/lib/libchromatix_lavender_s5kgm1_ofilm_i_video_weixin.so
 vendor/lib/libchromatix_lavender_s5kgm1_ofilm_i_weixin_video_3a_res1.so
 vendor/lib/libchromatix_lavender_s5kgm1_ofilm_i_weixin_video_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_ofilm_i_zsl_preview_3a_sn.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_i_zsl_preview_3a_its.so
 vendor/lib/libchromatix_lavender_s5kgm1_ofilm_i_zsl_preview_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_ofilm_i_zsl_video_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_4k_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_4k_video_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_bokeh_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_common.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_hfr_120.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_hfr_60.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_hfr_90.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_liveshot.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_preview.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_preview_sn.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_preview_sr.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_preview_video.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_snapshot.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_snapshot_bokeh.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_snapshot_hdr.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_snapshot_hht.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_snapshot_sn.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_snapshot_sr.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_video.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_video_4k.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_video_weixin.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_cpp_video_weixin_res1.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_default_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_default_video_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_hfr_120.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_hfr_120_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_hfr_60.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_hfr_60_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_hfr_90.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_hfr_90_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_pano_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_postproc.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_preview.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_preview_cts.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_snapshot.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_snapshot_bokeh.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_snapshot_hdr.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_snapshot_sn.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_video.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_video_4k.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_video_weixin.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_video_weixin_res1.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_weixin_video_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_weixin_video_3a_res1.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_zsl_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_zsl_preview_3a_its.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_zsl_preview_3a_sn.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_iii_zsl_video_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_4k_preview_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_4k_video_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_bokeh_preview_3a.so
@@ -563,6 +639,7 @@ vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_cpp_video.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_cpp_video_weixin_res1.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_cpp_video_weixin.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_default_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_default_preview_3a_its.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_default_video_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_hfr_120_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_hfr_120.so
@@ -576,6 +653,7 @@ vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_preview_cts.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_preview.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_snapshot_bokeh.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_snapshot_hdr.so
+vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_snapshot_its.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_snapshot_sn.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_snapshot.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_video_4k.so
@@ -584,6 +662,7 @@ vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_video_weixin_res1.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_video_weixin.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_weixin_video_3a_res1.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_weixin_video_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_zsl_preview_3a_its.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_zsl_preview_3a_sn.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_zsl_preview_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_ii_zsl_video_3a.so
@@ -835,7 +914,56 @@ vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_i_weixin_video_3a_res1.so
 vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_i_weixin_video_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_i_zsl_preview_3a_sn.so
 vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_i_zsl_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_i_zsl_preview_3a_its.so
 vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_i_zsl_video_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_4k_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_4k_video_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_bokeh_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_common.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_hfr_120.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_hfr_60.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_hfr_90.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_liveshot.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_preview.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_preview_sn.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_preview_sr.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_preview_video.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_snapshot.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_snapshot_bokeh.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_snapshot_hdr.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_snapshot_hht.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_snapshot_sn.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_snapshot_sr.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_video.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_video_4k.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_video_weixin.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_cpp_video_weixin_res1.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_default_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_default_video_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_hfr_120.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_hfr_120_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_hfr_60.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_hfr_60_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_hfr_90.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_hfr_90_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_pano_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_postproc.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_preview.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_preview_cts.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_snapshot.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_snapshot_bokeh.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_snapshot_hdr.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_snapshot_sn.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_video.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_video_4k.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_video_weixin.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_video_weixin_res1.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_weixin_video_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_weixin_video_3a_res1.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_zsl_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_zsl_preview_3a_its.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_zsl_preview_3a_sn.so
+vendor/lib/libchromatix_lavender_s5kgm1_ofilm_india_iii_zsl_video_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_4k_preview_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_4k_video_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_bokeh_preview_3a.so
@@ -859,6 +987,7 @@ vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_cpp_video.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_cpp_video_weixin_res1.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_cpp_video_weixin.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_default_preview_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_default_preview_3a_its.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_default_video_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_hfr_120_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_hfr_120.so
@@ -872,6 +1001,7 @@ vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_preview_cts.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_preview.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_snapshot_bokeh.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_snapshot_hdr.so
+vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_snapshot_its.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_snapshot_sn.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_snapshot.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_video_4k.so
@@ -880,6 +1010,7 @@ vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_video_weixin_res1.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_video_weixin.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_weixin_video_3a_res1.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_weixin_video_3a.so
+vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a_its.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a_sn.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a.so
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_video_3a.so
@@ -969,7 +1100,9 @@ vendor/lib/libmmcamera_lavender_s5k5e8_ofilm_i.so
 vendor/lib/libmmcamera_lavender_s5k5e8_sunny_ii_eeprom.so
 vendor/lib/libmmcamera_lavender_s5k5e8_sunny_ii.so
 vendor/lib/libmmcamera_lavender_s5kgm1_ofilm_i.so
+vendor/lib/libmmcamera_lavender_s5kgm1_ofilm_iii.so
 vendor/lib/libmmcamera_lavender_s5kgm1sp_ofilm_i_eeprom.so
+vendor/lib/libmmcamera_lavender_s5kgm1sp_ofilm_iii_eeprom.so
 vendor/lib/libmmcamera_lavender_s5kgm1sp_sunny_ii_eeprom.so
 vendor/lib/libmmcamera_lavender_s5kgm1_sunny_ii.so
 
@@ -985,7 +1118,6 @@ vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml
 # DRM
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/liboemcrypto.so
-vendor/lib64/libspl.so
 
 # Fingerprint firmware
 etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
@@ -1009,8 +1141,6 @@ vendor/firmware/fpctzappfingerprint.mdt
 
 # Fingerprint sensor
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
--vendor/app/QFingerprintService/QFingerprintService.apk
-vendor/bin/qfp-daemon
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
@@ -1020,7 +1150,6 @@ vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/com.fingerprints.extension@2.0.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
-vendor/lib64/libqfp-service.so
 vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
@@ -1028,12 +1157,13 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/gatekeeper.sdm660.so
+vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/lib64/hw/gatekeeper.sdm660.so
 
 # Keystore
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 vendor/lib/libqtikeymaster4.so
