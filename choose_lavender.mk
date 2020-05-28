@@ -21,6 +21,12 @@
 # definition file).
 #
 
+# Declare soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/sdm660/audio \
+    hardware/qcom-caf/sdm660/display \
+    hardware/qcom-caf/sdm660/media
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -29,11 +35,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
+# Inherit some common Choose stuff.
+$(call inherit-product, vendor/choose-a/config/common.mk)
 
-# Inherit some common Carbon stuff.
-$(call inherit-product, vendor/carbon/config/common.mk)
+# HAL1 apps list
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera.hal1.packagelist=com.whatsapp,com.android.camera,com.android.camera2 \
+    vendor.camera.hal1.packagelist= com.whatsapp,com.android.camera,com.android.camera2
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -42,7 +50,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys" 
 
 # Device identifier
-PRODUCT_NAME := carbon_lavender
+PRODUCT_NAME := choose_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
