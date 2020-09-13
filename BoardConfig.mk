@@ -60,3 +60,6 @@ VENDOR_SECURITY_PATCH := 2020-04-05
 
 # WLAN MAC
 WLAN_MAC_SYMLINK := true
+
+# ANXCamera
+-include vendor/aeonax/ANXCamera/BoardConfigAnx.mk

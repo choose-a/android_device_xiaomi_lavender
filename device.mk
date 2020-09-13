@@ -94,6 +94,9 @@ PRODUCT_PACKAGES += \
 # Vendor files
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 
+# ANXCamera
+$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
+
 # AOSP DEVICE
 PRODUCT_NAME := aosp_lavender
 PRODUCT_DEVICE := lavender
