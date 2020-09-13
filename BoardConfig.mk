@@ -61,6 +61,9 @@ VENDOR_SECURITY_PATCH := 2020-01-01
 # WLAN MAC
 WLAN_MAC_SYMLINK := true
 
+# ANXCamera
+-include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
+
 # Revert me!
 ifneq ($(BOARD_USE_ENFORCING_SELINUX),true)
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
