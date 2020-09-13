@@ -97,6 +97,9 @@ $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 # ANXCamera
 $(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
 
+# Include gms for private builds
+$(call inherit-product-if-exists, vendor/aosp/config/gms.mk)
+
 # AOSP DEVICE
 PRODUCT_NAME := aosp_lavender
 PRODUCT_DEVICE := lavender
